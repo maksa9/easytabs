@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> - jsFiddle demo</title>
+  
+  <script type='text/javascript' src='//code.jquery.com/jquery-1.9.1.js'></script>
+  
+  
+  
+  
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+  
+    
+    
+      <script type='text/javascript' src="jquery.easytabs.min.js"></script>
+    
+  
+    
+      <link rel="stylesheet" type="text/css" href="http://os.alfajango.com/css/tabs.css">
+    
+  
+  <style type='text/css'>
+    
+  </style>
+  
+
+
+<script type='text/javascript'>//<![CDATA[ 
+$(window).load(function(){
+
+$('#tab-container').easytabs({
+         updateHash: false
+    });
+});//]]>  
+
+</script>
+
+
+</head>
+<body>
+  <div id="tab-container" class="tab-container">
+  <ul class='etabs'>
+    <li class='tab'><a href="#tabs1-html">HTML Markup</a></li>
+      <span class='tab'><a href="http://test.html">URL</a></span>
+    <li class='tab'><a href="#tabs1-css">Example CSS</a></li>
+  </ul>
+  <div id="tabs1-html">
+    <h2>HTML Markup for these tabs</h2>
+    <!-- content -->
+  </div>
+  
+  <div id="tabs1-css">
+    <h2>CSS Styles for these tabs</h2>
+    <!-- content -->
+  </div>
+</div>
+  
+</body>
+
+
+</html>
